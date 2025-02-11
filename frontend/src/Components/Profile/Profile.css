@@ -1,0 +1,354 @@
+/* 
+    .b_body {
+      background-color: #5297aa;
+      min-height: 100vh; 
+    padding-top: 60px;
+    
+   } 
+.profile-header{
+    font-weight: bold;
+
+  font-size: 40px;
+
+}
+.profile-container {
+    background:linear-gradient(180deg ,rgb(91, 207, 217),rgb(97, 167, 150) 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 100px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 1500px;
+    max-width: 1000px; 
+    font-family:'Times New Roman', Times, serif  ;
+    font-size: 25px;
+  }
+  
+  .profile-details {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px; 
+  }
+  
+  .profile-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .profile-row span {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .profile-row .separator {
+    flex: 0 0 20px;
+    text-align: center;
+  }
+  
+  .profile-row .value {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-button {
+    margin-top: 15px;
+  }
+  
+  .update-button {
+    align-self: center;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+   */
+
+   /* Profile.css */
+.b_body {
+  background-color: #5297aa;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.profile-header {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.profile-container {
+  background: linear-gradient(180deg, rgb(91, 207, 217), rgb(97, 167, 150) 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 1400px;
+  max-width: 1000px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.profile-details {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.profile-row span {
+  flex: 1;
+  text-align: left;
+  font-weight: bold;
+}
+
+.profile-row .separator {
+  flex: 0 0 20px;
+  text-align: center;
+}
+
+.profile-row .value {
+  flex: 1;
+  text-align: right;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.edit-form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-password-button{
+  /* padding: 10px 20px; */
+  margin-top: 5px;
+
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  margin-top: 15px;
+}
+
+.update-button {
+  align-self: center;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+
+/* Cart & Reviews Section */
+/* .cart-container{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin-top: 10px;
+  align-items: center;
+} */
+
+/* Flexbox for cart items */
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Individual cart item */
+.cart-item {
+  background: #394859;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* New styles for Reviews section */
+.reviews-button , .cart-button{
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.reviews-button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the reviews container below profile box */
+.reviews-container ,.cart-container{
+  background-color: #79c8d3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.reviews-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  background-color: #9dd296;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.review-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.review-card strong {
+  color: #333;
+}
+
+.review-card .rating {
+  font-weight: bold;
+  color: #ffb400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 50px;
+  }
+
+  .edit-form input {
+    max-width: 100%;
+  }
+
+  .reviews-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .reviews-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}

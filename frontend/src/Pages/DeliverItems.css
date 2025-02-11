@@ -1,0 +1,57 @@
+
+.bb_body{
+  /* background-color: #5297aa; */
+  background:linear-gradient(180deg ,rgb(91, 207, 217),rgb(97, 167, 150) 60%);
+
+  /* background-color: #eeecf6;  */
+  min-height: 100vh; 
+ padding-top: 60px;
+
+}
+.deliver-items-container {
+    padding: 20px;
+    /* background-color: #5297aa; */
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .order-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .order-item-details {
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price, .buyer-name {
+    margin-top: 5px;
+  }
+  
+  .otp-input {
+    margin-top: 10px;
+  }
+  
+  .otp-input input {
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,67 @@
+
+
+
+
+  .sold-orders-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sold-orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 20px 0;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  .sold-order-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 300px; /* Adjust card width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .sold-order-card:hover {
+    transform: scale(1.05); /* Slightly grow the card */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a deeper shadow */
+    cursor: pointer;
+  }
+  
+  .sold-order-card .item-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .sold-order-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 768px) {
+    .sold-orders-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sold-order-card {
+      width: 90%; /* Take most of the screen width on smaller devices */
+    }
+  }
+  
+  

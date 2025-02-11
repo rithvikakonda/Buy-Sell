@@ -1,0 +1,55 @@
+
+
+   /* ///////////////////////////////////////////////////////////// implement //////////////////////// */
+    .orders-page { 
+    background:linear-gradient(180deg ,rgb(91, 207, 217),rgb(97, 167, 150) 60%);
+
+     /* background-color: #eeecf6;  */
+     min-height: 100vh; 
+    padding-top: 60px;
+  }  
+  
+   .orders-history {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background:linear-gradient(180deg ,rgb(91, 207, 217),rgb(97, 167, 150) 60%); */
+
+    
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #bfcfcf;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tabs button.active {
+    background-color: #007bff;
+    color: rgb(238, 230, 230);
+  }
+  
+  .tab-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tab-content li {
+    padding: 10px;
+    border: 1px solid #958383;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tab-content div {
+    margin-bottom: 5px;
+  }
+  

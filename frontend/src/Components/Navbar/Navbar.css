@@ -1,0 +1,185 @@
+body {
+  padding-top: 20px; /* Adjust this value based on the height of your navbar */
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Adjust as needed */
+  z-index: 1000; 
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+
+
+/* .nav-logo{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+} */
+
+.nav-logo p {
+  margin: 0;
+  padding: 0 30px; /* Add padding to create space around the text */
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: rgb(92, 81, 81);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.nav-menu li:hover {
+  color: rgb(10, 10, 86); /* Change color when active */
+  transform: scale(1.2); /* Increase size when active */
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 0.5px;
+   
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+
+  
+.nav-profile-cart{
+    display:flex;
+    align-items: center;
+    gap:45px;
+
+}
+
+.logout{
+  background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout:hover{
+    background-color: rgb(124, 21, 21);
+}
+.nav-profile-cart button{
+    width: 130px;
+    height: 48px;
+    outline:0cqh ;
+    /* border : 1px solid rgb(162, 153, 138); */
+    border-radius: 50px;
+
+    /* color: rgb(103, 91, 77); */
+    font-size: 20px;
+    font-weight: 500;
+    /* background-color: rgb(151, 195, 195); */
+    cursor: pointer;
+
+
+} 
+.cart-icon {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  cursor: pointer;
+}
+
+.cart-icon:hover {
+  transform: scale(1.2); /* Slightly increase size on hover */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Add shadow on hover */
+}
+
+/* 
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size :14px;
+    background: red ;
+    color : white;
+
+
+} */
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu li a:hover {
+    color: #ff6347;
+  }
+  
+  .nav-menu li hr {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #ff6347;
+    transition: width 0.3s ease;
+  } */

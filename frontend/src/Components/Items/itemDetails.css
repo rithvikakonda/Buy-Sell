@@ -1,0 +1,33 @@
+.ab_body{
+  /* background-color: #5297aa; */
+  background:linear-gradient(180deg ,rgb(91, 207, 217),rgb(97, 167, 150) 60%);
+
+  /* background-color: #eeecf6;  */
+  min-height: 100vh; 
+ padding-top: 60px;
+
+}
+
+
+.item-details {
+    padding: 16px;
+    max-width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /* margin: 0 auto; */
+    margin-top :20px;
+    margin-left : 30px;
+    background-color: #96e6dc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .item-details h1 {
+    margin-bottom: 16px;
+  }
+  
+  .item-details p {
+    margin: 8px 0;
+  }
+  

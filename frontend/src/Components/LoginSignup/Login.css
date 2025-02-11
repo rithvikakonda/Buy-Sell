@@ -1,0 +1,104 @@
+
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+    /* background: rgba(139, 81, 81, 0.1); Optional light overlay background */
+    background:linear-gradient(180deg ,rgb(75, 141, 147),rgb(57, 166, 142) 60%);
+
+  }
+  
+  .login-signup form {
+    background: rgba(77, 206, 191, 0.8); /* Transparent box background */
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between inputs */
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+  }
+  .login-signup form {
+    background: rgba(255, 255, 255, 0.2); /* Light, almost transparent background */
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between inputs */
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    backdrop-filter: blur(10px); /* Frosted glass blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */
+  }
+  
+  
+  
+  .login-signup h2 {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(62, 161, 158); /* Matches form background */
+    padding: 10px 50px; /* Balanced padding for centered text */
+    font-size: 24px;
+    color: #10191c;
+    text-align: center; /* Centers the text within the box */
+    width: fit-content; /* Adjusts width to fit the text content */
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(52, 48, 153, 0.1);
+  }
+  
+  .login-signup input {
+    padding: 10px;
+    border: 2px solid #4d8387;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-signup button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    background: rgb(16, 147, 134);
+    color: rgb(21, 21, 31);
+    transition: background 0.3s ease;
+  }
+  
+  .login-signup button:hover {
+    background: rgb(74, 188, 167);
+  }
+  
+  .login-signup .toggle-button {
+    margin-top: 20px;
+    background: transparent;
+    color: rgb(45, 45, 84);
+    border: 2px solid rgb(63, 63, 96);
+  }
+  
+  .login-signup .toggle-button:hover {
+    background: rgba(51, 19, 80, 0.1);
+  }
+  
+  .message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4caf50; /* Green for success */
+  }
+  
+  .message.error {
+    background-color: #f44336; /* Red for errors */
+  }
+  
+

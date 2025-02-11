@@ -1,0 +1,55 @@
+/* Main container styling */
+.add-item-page .form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form group styling */
+.add-item-page .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Input and textarea styling */
+.add-item-page input,
+.add-item-page textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.add-item-page button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-item-page button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Message styling */
+.success-message {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}

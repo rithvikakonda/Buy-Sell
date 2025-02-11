@@ -1,0 +1,19 @@
+/* Search.css */
+
+.search-container {
+    
+    background:linear-gradient(180deg ,rgb(37, 159, 170),rgb(101, 168, 152) 60%);
+    min-height: 100vh; /* Ensure it takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    max-width: 600px;
+    width: 100%;
+  }
+  

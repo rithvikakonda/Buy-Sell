@@ -1,0 +1,108 @@
+[
+    {
+      "name": "Laptop",
+      "price": 55000,
+      "description": "Dell Inspiron 15, 8GB RAM, 1TB HDD, Windows 11",
+      "category": "Electronics",
+      "seller": "64e12345f67a9c001234abcd"
+    },
+    {
+      "name": "Formal Shirt",
+      "price": 800,
+      "description": "Men's slim-fit formal shirt, size M, brand new.",
+      "category": "Clothing & Apparel",
+      "seller": "64e12345f67a9c001234abce"
+    },
+    {
+      "name": "Basketball",
+      "price": 1200,
+      "description": "Professional basketball, used only twice, perfect condition.",
+      "category": "Sports & Fitness",
+      "seller": "64e12345f67a9c001234abcf"
+    },
+    {
+      "name": "Organic Rice (1kg)",
+      "price": 80,
+      "description": "Freshly harvested organic rice, packed and sealed.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abd0"
+    },
+    {
+      "name": "Fresh Tomatoes (1kg)",
+      "price": 40,
+      "description": "Farm-fresh tomatoes, ripe and juicy.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abd1"
+    },
+    {
+      "name": "Bananas (1 dozen)",
+      "price": 50,
+      "description": "Fresh Cavendish bananas, sweet and healthy.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abd2"
+    },
+    {
+      "name": "Wireless Headphones",
+      "price": 2500,
+      "description": "Noise-canceling wireless headphones, 20 hours of battery life.",
+      "category": "Electronics",
+      "seller": "64e12345f67a9c001234abd3"
+    },
+    {
+      "name": "Running Shoes",
+      "price": 2000,
+      "description": "Nike running shoes, size 9, barely used.",
+      "category": "Clothing & Apparel",
+      "seller": "64e12345f67a9c001234abd4"
+    },
+    {
+      "name": "Chess Board",
+      "price": 300,
+      "description": "Wooden chess board with all pieces, perfect for tournaments.",
+      "category": "Toys & Games",
+      "seller": "64e12345f67a9c001234abd5"
+    },
+    {
+      "name": "Cricket Bat",
+      "price": 1500,
+      "description": "Kashmir willow cricket bat, perfect for college tournaments.",
+      "category": "Sports & Fitness",
+      "seller": "64e12345f67a9c001234abd6"
+    },
+    {
+      "name": "Apples (1kg)",
+      "price": 120,
+      "description": "Crisp and fresh apples, sourced directly from the orchard.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abd7"
+    },
+    {
+      "name": "Carrots (1kg)",
+      "price": 60,
+      "description": "Fresh and crunchy carrots, perfect for snacking or cooking.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abd8"
+    },
+    {
+      "name": "Facewash Pack",
+      "price": 400,
+      "description": "Pack of 2 herbal facewashes, 100ml each.",
+      "category": "Personal Care",
+      "seller": "64e12345f67a9c001234abd9"
+    },
+    {
+      "name": "Notebooks (Set of 5)",
+      "price": 250,
+      "description": "Set of 5 ruled notebooks, 200 pages each.",
+      "category": "Books & Study Materials",
+      "seller": "64e12345f67a9c001234abda"
+    },
+    {
+      "name": "Water Bottle (1L)",
+      "price": 150,
+      "description": "Reusable, BPA-free water bottle, ideal for daily use.",
+      "category": "Food & Groceries",
+      "seller": "64e12345f67a9c001234abdb"
+    }
+  ]
+  

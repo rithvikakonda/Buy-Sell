@@ -1,0 +1,74 @@
+
+
+
+   .pending-orders-container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .orders-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+    justify-content: flex-start; /* Aligns items from left to right */
+    align-items: flex-start;
+    gap: 20px; /* Space between items */
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your page width */
+    padding: 20px;
+}
+.order-item {
+    background-color: #fffafa;
+    border: 1px solid #973a3a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px; /* Fixed width */
+    flex: 0 0 auto; /* Prevent items from shrinking too much */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+  .order-item:hover {
+    transform: scale(1.05); /* Make the box slightly bigger */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  .order-item-details {
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-price, .seller-name, .order-status {
+    font-size: 20px;
+    color: #0c0b0b;
+  }
+  
+  .order-otp {
+    margin-top: 10px;
+  }
+  
+  .toggle-pending-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-pending-button:hover {
+    background-color: #0056b3;
+  }
+  

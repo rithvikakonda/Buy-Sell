@@ -1,0 +1,62 @@
+.first{
+    height: 100vh;
+    background:linear-gradient(180deg ,rgb(110, 176, 181),rgb(160, 179, 175) 60%);
+    display: flex;
+}
+
+.first-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap:10px; */
+    padding-left: 150px;
+    line-height : 1;
+
+
+}
+
+.first-left h2{
+    padding-top: 300px;
+    color: black;
+    font-size : 50px;
+    font-weight: 800;
+
+    /* margin-top: 60px;   */
+
+}
+.first-left h3{
+    padding-top: 50px;
+    font-size : 40px;
+    font-weight: 800;
+}
+
+.first-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-button {
+    display: inline-block;
+    padding: 40px 40px;  /* Adjust for width and height */
+    font-size: 30px;  /* Adjust for text size */
+    font-weight: bold;
+    color: white;  /* Text color */
+    background-color: rgb(28, 115, 131);  /* Background color */
+    border: none;
+    border-radius: 50px;  /* Large value for oval shape */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s;  /* Smooth hover effects */
+}
+
+.start-button:hover {
+    transform: scale(1.05);  /* Slight zoom-in on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  /* Stronger shadow */
+}
+
+.start-button:active {
+    transform: scale(0.95);  /* Slight shrink on click */
+}
+

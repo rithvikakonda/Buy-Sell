@@ -1,0 +1,157 @@
+/* Container for bought items */
+.bought-orders-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* List of bought items */
+.bought-orders-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for each bought order card */
+.bought-order-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 250px; /* Increased width for better content fit */
+  height: auto; /* Remove fixed height for flexibility */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjusted for more even spacing */
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bought-order-card .item-info h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bought-order-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.bought-order-card:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 4px 8px rgba(96, 85, 85, 0.2); /* Add shadow on hover */
+  cursor: pointer;
+}
+
+/* Review form styling */
+.review-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.review-form h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Rating input */
+.review-form label {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 14px;
+}
+
+.review-form input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+/* Button styling */
+.review-form button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.review-form button:hover {
+  background-color: #45a049;
+}
+
+/* Existing review styling */
+.existing-review {
+  margin-top: 15px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.existing-review h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.existing-review p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Star rating icons */
+.star-rating {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: gold;
+}
+
+/* Add spacing between order cards */
+.bought-orders-list li {
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
